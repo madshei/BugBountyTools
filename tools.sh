@@ -33,17 +33,6 @@ echo "installing ffuf.........................."
 go install github.com/ffuf/ffuf@latest
 clear
 
-echo "installing x8............................"
-#install rust first
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && \
-    git clone https://github.com/Sh1Yo/x8 && cd x8 && cargo build --release
-clear
-
-
-echo "download wordlist assetnote.................."
-wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH
-clear
-
 echo "installing gospider.........................."
 o install github.com/jaeles-project/gospider@latest
 clear
