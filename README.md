@@ -3,7 +3,15 @@ All I need to start !
 
 ## Installation
 
-Use git command to clone repo
+Firs install Golang  
+```bash
+wget "https://golang.org/dl/go${GOVERSION}.linux-amd64.tar.gz" -4
+tar -C /usr/local -xvf "go${GOVERSION}.linux-amd64.tar.gz"
+echo export GOPATH=$HOME/go >> ~/.zshrc
+echo export PATH=/usr/local/go/bin:$PATH:$GOPATH/bin >> ~/.zshrc
+source ~/.zshrc
+```
+after tah use git command to clone repo
 
 ```bash
 git clone https://github.com/madshei/BugBountyTools.git
@@ -11,7 +19,7 @@ git clone https://github.com/madshei/BugBountyTools.git
 
 ## Then
 
-```bash
+```bash1
 cd BugBountyTools
 ```
 ```bash
@@ -20,6 +28,7 @@ chmod +x tools.sh
 ```bash
 ./tools.sh
 ```
+done....  
 
 ## Tools list
 
