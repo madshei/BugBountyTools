@@ -23,20 +23,11 @@ chmod +x tools.sh
 
 ## Tools list
 
-Nuclei**[ProjectDiscovery](https://projectdiscovery.io)**  
-Subfinder  
-Httpx  
-Naabu
-Dnsx
-Katana
-Ffuf
-X8
-Assetnote WordList
-Gospider
-Kxss
-Gxss
-Assetfinder
-WaybackURL
-Unfurl
-Qsreplace
-Anew
+[Nuclei, Subfinder, Httpx, Naabu, Dnsx, Katana](https://projectdiscovery.io)  
+[Ffuf](https://github.com/ffuf/ffuf)  
+[X8](https://github.com/Sh1Yo/x8)  
+[Assetnote WordList](https://assetnote.io)  
+[Gospider](https://github.com/jaeles-project/gospider)  
+[Kxss](https://github.com/Emoe/kxss)  
+[Gxss](https://github.com/KathanP19/Gxss)  
+[Assetfinder, WaybackURL, Unfurl, Qsreplace, Anew](https://github.com/tomnomnom)
