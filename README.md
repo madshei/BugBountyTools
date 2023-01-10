@@ -30,4 +30,5 @@ chmod +x tools.sh
 [Gospider](https://github.com/jaeles-project/gospider)  
 [Kxss](https://github.com/Emoe/kxss)  
 [Gxss](https://github.com/KathanP19/Gxss)  
-[Assetfinder, WaybackURL, Unfurl, Qsreplace, Anew](https://github.com/tomnomnom)
+[Assetfinder, WaybackURL, Unfurl, Qsreplace, Anew](https://github.com/tomnomnom)  
+[Sqlmap](https://github.com/sqlmapproject/sqlmap)
