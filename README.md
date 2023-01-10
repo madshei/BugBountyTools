@@ -20,5 +20,3 @@ chmod +x install.sh
 ```bash
 ./install.sh
 ```
-
-this repo update and coming soon..!
