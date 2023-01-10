@@ -15,8 +15,8 @@ git clone https://github.com/madshei/BugBountyTools.git
 cd BugBountyTools
 ```
 ```bash
-chmod +x install.sh
+chmod +x tools.sh
 ```
 ```bash
-./install.sh
+./tools.sh
 ```
