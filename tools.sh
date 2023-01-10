@@ -75,3 +75,9 @@ clear
 echo "installing anew................................"
 go install -v github.com/tomnomnom/anew@latest
 clear
+
+echo "installin sqlmap..............................."
+sudo apt-get update && sudo apt-get install sqlmap
+clear
+
+echo "All tools installed :) "
