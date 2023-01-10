@@ -23,10 +23,9 @@ chmod +x tools.sh
 
 ## Tools list
 
-```bash
-Nuclei**[ProjectDiscovery](https://projectdiscovery.io)**
-Subfinder
-Httpx
+Nuclei**[ProjectDiscovery](https://projectdiscovery.io)**  
+Subfinder  
+Httpx  
 Naabu
 Dnsx
 Katana
@@ -41,4 +40,3 @@ WaybackURL
 Unfurl
 Qsreplace
 Anew
-```
