@@ -41,4 +41,6 @@ done....
 [Kxss](https://github.com/Emoe/kxss)  
 [Gxss](https://github.com/KathanP19/Gxss)  
 [Assetfinder, WaybackURL, Unfurl, Qsreplace, Anew](https://github.com/tomnomnom)  
-[Sqlmap](https://github.com/sqlmapproject/sqlmap)
+[Sqlmap](https://github.com/sqlmapproject/sqlmap)  
+[KiteRunner](https://github.com/assetnote/kiterunner)  
+[X8](https://github.com/Sh1Yo/x8)  
