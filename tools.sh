@@ -91,4 +91,8 @@ wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -n
 cd
 clear
 
+echo "installing Gospider.............................."
+go install github.com/jaeles-project/gospider@latest
+clear
+
 echo "All tools installed :) "
