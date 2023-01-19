@@ -44,3 +44,6 @@ done....
 [Sqlmap](https://github.com/sqlmapproject/sqlmap)  
 [KiteRunner](https://github.com/assetnote/kiterunner)  
 [X8](https://github.com/Sh1Yo/x8)  
+[Gospider](https://github.com/jaeles-project/gospider)  
+[Arjun](https://github.com/s0md3v/Arjun)  
+
