@@ -25,15 +25,15 @@ echo "installing dnsx......................."
 go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 clear
 
-echo "installing katana......................"
+echo "installing katana............................."
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 clear
 
-echo "installing ffuf.........................."
+echo "installing ffuf..............................."
 go install github.com/ffuf/ffuf@latest
 clear
 
-echo "installing gospider.........................."
+echo "installing gospider..........................."
 o install github.com/jaeles-project/gospider@latest
 clear
 
@@ -57,7 +57,7 @@ echo "installing unfurl.............................."
 go install github.com/tomnomnom/unfurl@latest
 clear
 
-echo "qsreplace......................................"
+echo "installing qsreplace..........................."
 go install github.com/tomnomnom/qsreplace@latest
 clear
 
@@ -65,8 +65,30 @@ echo "installing anew................................"
 go install -v github.com/tomnomnom/anew@latest
 clear
 
-echo "installin sqlmap..............................."
+echo "installing sqlmap..............................."
 sudo apt-get update && sudo apt-get install sqlmap
+clear
+
+echo "installing x8...................................."
+curl https://sh.rustup.rs -sSf | sh
+mkdir git
+cd git/
+git clone https://github.com/Sh1Yo/x8
+cd x8
+cargo build --release
+cd
+clear
+
+echo "installing KiteRunner ..........................."
+cd ~/git
+wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz
+tar xvf kiterunner_1.0.2_linux_amd64.tar.gz
+cp ./kr ~/usr/local/bin
+mkdir -p ~/.cache/kiterunner/wordlists
+cd ~/.cache/kiterunner/wordlists
+echo "Downloading Kite Runner WordLists ......Be Patient.........."
+wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH 
+cd
 clear
 
 echo "All tools installed :) "
